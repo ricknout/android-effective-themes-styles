@@ -1,1 +1,0 @@
-# android-effective-themes-styles
