@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Theme attributes (not currently in framework or AppCompat) -->
+    <attr name="textInputLayoutStyle" format="reference" />
+    <attr name="cardViewStyle" format="reference" />
+    <attr name="tabLayoutStyle" format="reference" />
+    <attr name="floatingActionButtonStyle" format="reference" />
+
+</resources>

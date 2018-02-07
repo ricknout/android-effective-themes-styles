@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- Theme colors -->
+    <color name="color_primary">@color/brand_primary</color>
+    <color name="color_primary_dark">@color/brand_secondary</color>
+    <color name="color_accent">@color/brand_accent</color>
+    <color name="color_control_normal">@color/brand_widget_normal</color>
+    <color name="color_control_highlight">@color/brand_widget_highlight</color>
+    <color name="color_text_primary">@color/brand_text_primary</color>
+    <color name="color_text_secondary">@color/brand_text_secondary</color>
+    <color name="color_text_button">@color/brand_text_primary</color>
+    <color name="color_text_button_borderless">@color/brand_text_primary</color>
+    <color name="color_text_input_layout_error">@color/brand_error</color>
+    <color name="color_window_background">@color/brand_background</color>
+    <color name="color_card_background">@color/brand_background</color>
+
+    <!-- Brand colors -->
+    <color name="brand_primary">#3F51B5</color>
+    <color name="brand_secondary">#303F9F</color>
+    <color name="brand_accent">#FF4081</color>
+    <color name="brand_text_primary">#212121</color>
+    <color name="brand_text_secondary">#757575</color>
+    <color name="brand_widget_normal">#9E9E9E</color>
+    <color name="brand_widget_highlight">#BDBDBD</color>
+    <color name="brand_error">#F44336</color>
+    <color name="brand_background">#FFFFFF</color>
+    
+</resources>

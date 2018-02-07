@@ -1,0 +1,67 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- App Theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryDark">@color/color_primary_dark</item>
+        <item name="colorAccent">@color/color_accent</item>
+        <item name="android:windowBackground">@color/color_window_background</item>
+        <item name="android:colorControlNormal">@color/color_control_normal</item>
+        <item name="android:colorControlActivated">@color/color_accent</item>
+        <item name="android:colorControlHighlight">@color/color_control_highlight</item>
+        <item name="android:colorButtonNormal">@color/color_accent</item>
+        <item name="android:buttonStyle">@style/AppButton</item>
+        <item name="android:borderlessButtonStyle">@style/AppButton.Borderless</item>
+        <item name="android:editTextStyle">@style/AppEditText</item>
+        <item name="textInputLayoutStyle">@style/AppTextInputLayout</item>
+        <item name="android:textColorPrimary">@color/color_text_primary</item>
+        <item name="android:textColorSecondary">@color/color_text_secondary</item>
+        <item name="android:textColorLink">@color/color_accent</item>
+        <item name="cardViewStyle">@style/AppCardView</item>
+        <item name="tabLayoutStyle">@style/AppTabLayout</item>
+        <item name="floatingActionButtonStyle">@style/AppFloatingActionButton</item>
+    </style>
+
+    <!-- App regular and borderless Button styles -->
+    <style name="AppButton" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@color/color_text_button</item>
+    </style>
+    <style name="AppButton.Borderless" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:textColor">@color/color_text_button_borderless</item>
+    </style>
+
+    <!-- App EditText style -->
+    <style name="AppEditText" parent="Widget.AppCompat.EditText">
+        <!-- BUG: Issue with Autofill, see https://issuetracker.google.com/issues/62834931 -->
+        <item name="android:importantForAutofill" tools:targetApi="o">noExcludeDescendants</item>
+    </style>
+
+    <!-- App TextInputLayout style -->
+    <style name="AppTextInputLayout" parent="Widget.Design.TextInputLayout">
+        <item name="errorTextAppearance">@style/AppTextView.TextInputLayoutError</item>
+    </style>
+
+    <!-- App TextView styles -->
+    <style name="AppTextView.TextInputLayoutError" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textColor">@color/color_text_input_layout_error</item>
+    </style>
+
+    <!-- App CardView styles -->
+    <style name="AppCardView" parent="CardView">
+        <item name="cardBackgroundColor">@color/color_card_background</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+    </style>
+
+    <!-- App TabLayout style -->
+    <style name="AppTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabSelectedTextColor">@color/color_accent</item>
+    </style>
+
+    <!-- App FloatingActionButton -->
+    <style name="AppFloatingActionButton" parent="Widget.Design.FloatingActionButton">
+        <item name="backgroundTint">@color/color_accent</item>
+        <item name="rippleColor">@color/color_control_highlight</item>
+    </style>
+
+
+</resources>
